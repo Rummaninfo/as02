@@ -10,7 +10,7 @@
   font-style: normal;
 }
 body{
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 nav{
@@ -55,36 +55,47 @@ text-align: center;
 .ourplants h3 {
     font-size: 2rem;
 }
-.card{
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+
 .cart-container h5{
-    
-font-size: 1.20rem;
-
+font-size: 1rem;
+margin-top: 5px;
 }
-
-.btn{
-    padding: 12px 90px;
+.cart-container p{
+    font-size: 0.90rem;
+}
+.cart-container button{
+    padding: 6px 10px;
     background-color: #E95A08;
     border: none;
     color: white;
+  
+    
+    text-align: center;
+   padding:12px 90px ;
     margin-top: 5px;
+   
+}
+.btn-div{
+    
+    width: 100%;
+
 }
 
-.cart-container{
-    margin-top: 1.5rem;
-    text-align: center;
+.card{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     
 }
 
 
-
-
-
-
+.cart-container h5{
+    text-align: center;
+}
+.cart-container p{
+    text-align: center;
+}
 
 
 @media screen and  (max-width:576px) {
@@ -122,16 +133,46 @@ body{
    width: 100%;
    background-size: contain;
 }
+.cart-container{
+width: 50%;
 
+}
 .card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 30%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.cart-container button{
+    padding: 6px 10px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+  
+  
+    text-align: first;
+   
    
 }
+
+.cart-container h5{
+    text-align: center;
+}
+.cart-container p{
+    text-align: center;
+}
+.cart-container img{
+    width: 100%;
+}
 .cart-container{
-    /* padding: 0 12px; */
+width: 100%;
+
+}
+
+.cart-container button{
+    padding: 6px 50px;
+    
+   
+   
 }
 
 }
