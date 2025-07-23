@@ -48,10 +48,37 @@ nav{
 .text p{
     color: rgba(0, 0, 0, 0.5);
 }
+.ourplants {
+text-align: center;
+}
 
+.ourplants h3 {
+    font-size: 2rem;
+}
+.card{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cart-container h5{
+    
+font-size: 1.20rem;
 
+}
 
+.btn{
+    padding: 12px 90px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
 
+.cart-container{
+    margin-top: 1.5rem;
+    text-align: center;
+    
+}
 
 
 
@@ -85,12 +112,26 @@ body{
 
 .banner{
     flex-direction: column-reverse;
-    gap: 10px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* gap: 5px; */
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .banner-img{
    width: 100%;
    background-size: contain;
 }
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: auto;
+    margin: auto;
+}
+.cart-container{
+    /* padding: 0 12px; */
+}
+
 }
