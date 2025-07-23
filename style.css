@@ -127,8 +127,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    width: auto;
-    margin: auto;
+    width: 30%;
+   
 }
 .cart-container{
     /* padding: 0 12px; */
