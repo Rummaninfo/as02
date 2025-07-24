@@ -237,6 +237,33 @@ margin-top: 5px;
 
 
 
+.footer{
+    /* display: grid;
+    grid-template-columns: repeat(3 , 1fr); */
+   display: flex;
+   align-items: first;
+   justify-content: space-between;
+ 
+}
+.list{
+   
+    list-style: none;
+ 
+}
+
+.list li{
+    padding-top: 15px;
+    color: #6B7280;
+}
+.img-list img{
+   
+   margin-right: 20px;
+   
+}
+
+
+
+
 @media screen and  (max-width:576px) {
    .nav{
     width: auto;
@@ -383,5 +410,10 @@ width: 100%;
 
     
 }
-
+.footer{
+    flex-direction: column;
+}
+.img-list{
+    margin-top: 10px;
+}
 }
