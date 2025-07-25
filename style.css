@@ -13,9 +13,7 @@
     width: 90%;
     margin: auto;
 }
-body{
-    border: 2px solid red;
-}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -381,10 +379,10 @@ width: 100%;
 }
 
 .double img{
-    width: 80%;
+    width: 100%;
 }
 .single img{
-    width: 80%;
+    width: 100%;
 }
 .deals-text h4{
    font-size: 1rem;
@@ -396,12 +394,16 @@ width: 100%;
 
 
 
-/* .main-photo{
-    margin-left: 10px;
-    margin-right: -90px;
-} */
 
 
+.double-first-text{
+  
+    transform: translateY(-140px) translateX(130px);
+}
+.double-second-text{
+  
+    transform: translateY(-140px) translateX(130px);
+}
 
 .single-text{
     font-size: 1rem;
