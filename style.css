@@ -32,9 +32,9 @@ nav{
 }
 .ul-items a{
     text-decoration: none;
-    color: black;
+    
 }
-.dark-grey{
+.dark-grey , .latest-text{
     color: #8987A1;
 }
 .banner{
@@ -139,7 +139,7 @@ margin-top: 5px;
     position: absolute;
     width: 200px;
     /* right: 650px; */
-    transform: translateY(-90px) translateX(-130px);
+    transform: translateY(-90px) translateX(-150px);
     
     
 }
