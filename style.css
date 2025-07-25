@@ -13,6 +13,9 @@
     width: 90%;
     margin: auto;
 }
+body{
+    border: 2px solid red;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -21,6 +24,7 @@ nav{
     width: 2rem;
     height: 2rem;
 }
+
 
 .ul-items{
     display: flex;
@@ -40,7 +44,9 @@ nav{
     justify-content: space-between;
     align-items: end;
 }
-
+.hide{
+    color: #8987A1;
+}
 .text h2{
     font-size: 3.5rem;
     line-height: 1.5;
@@ -269,6 +275,12 @@ margin-top: 5px;
     width: auto;
     margin: auto;
    } 
+
+
+   .body{
+    width: auto;
+    margin: auto;
+   }
 .logo, .cart {
     flex-direction: column;
     display: flex;
@@ -381,10 +393,16 @@ width: 100%;
     font: 5px;
     text-align: center;
 }
-.main-photo{
+
+
+
+/* .main-photo{
     margin-left: 10px;
     margin-right: -90px;
-}
+} */
+
+
+
 .single-text{
     font-size: 1rem;
     text-align: center;
